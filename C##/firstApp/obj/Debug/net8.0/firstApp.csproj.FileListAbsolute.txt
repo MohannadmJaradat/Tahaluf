@@ -1,0 +1,14 @@
+C:\Users\User\Desktop\JUST (CS)\courses\tahaluf\C##\firstApp\bin\Debug\net8.0\firstApp.exe
+C:\Users\User\Desktop\JUST (CS)\courses\tahaluf\C##\firstApp\bin\Debug\net8.0\firstApp.deps.json
+C:\Users\User\Desktop\JUST (CS)\courses\tahaluf\C##\firstApp\bin\Debug\net8.0\firstApp.runtimeconfig.json
+C:\Users\User\Desktop\JUST (CS)\courses\tahaluf\C##\firstApp\bin\Debug\net8.0\firstApp.dll
+C:\Users\User\Desktop\JUST (CS)\courses\tahaluf\C##\firstApp\bin\Debug\net8.0\firstApp.pdb
+C:\Users\User\Desktop\JUST (CS)\courses\tahaluf\C##\firstApp\obj\Debug\net8.0\firstApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\JUST (CS)\courses\tahaluf\C##\firstApp\obj\Debug\net8.0\firstApp.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\JUST (CS)\courses\tahaluf\C##\firstApp\obj\Debug\net8.0\firstApp.AssemblyInfo.cs
+C:\Users\User\Desktop\JUST (CS)\courses\tahaluf\C##\firstApp\obj\Debug\net8.0\firstApp.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\JUST (CS)\courses\tahaluf\C##\firstApp\obj\Debug\net8.0\firstApp.dll
+C:\Users\User\Desktop\JUST (CS)\courses\tahaluf\C##\firstApp\obj\Debug\net8.0\refint\firstApp.dll
+C:\Users\User\Desktop\JUST (CS)\courses\tahaluf\C##\firstApp\obj\Debug\net8.0\firstApp.pdb
+C:\Users\User\Desktop\JUST (CS)\courses\tahaluf\C##\firstApp\obj\Debug\net8.0\firstApp.genruntimeconfig.cache
+C:\Users\User\Desktop\JUST (CS)\courses\tahaluf\C##\firstApp\obj\Debug\net8.0\ref\firstApp.dll
