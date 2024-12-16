@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en" style="height: 100vh;">
 
@@ -103,4 +104,111 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
+=======
+<!DOCTYPE html>
+<html lang="en" style="height: 100vh;">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Contact</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .carousel-inner img {
+            height: 500px;
+            object-fit: cover;
+        }
+        
+        .dynamic-text {
+            font-size: 1.5rem;
+            color: #555;
+        }
+        
+        .submitted-message {
+            color: green;
+            font-weight: bold;
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
+        <div class="container">
+            <a class="navbar-brand" href="#">Restaurant Logo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contact Form Section -->
+    <section class="py-5 text-center">
+        <div class="container fb-5 mb-5" style="min-height: 50vh;">
+            <h2>Contact Us</h2>
+            <form id="contactForm" class="mt-4">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" name="name" required placeholder="name">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" name="email" required placeholder="email">
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" name="message" rows="4" required placeholder="message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary mt-3" style="width: 30%;">Submit</button>
+            </form>
+            <p id="formMessage" class="submitted-message" style="display: none;">Form submitted successfully!</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3 mt-5 pt-5" style="height: 20vh;">
+        <div class="container">
+            <p>Contact: 0799592488 | Location: Amman, Jordan</p>
+            <p>&copy; 2024 The Learning Hub - All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script>
+        // Handle form submission
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent default form submission
+
+            // Select all input fields inside the form
+            const inputs = document.querySelectorAll('#contactForm input, #contactForm textarea');
+
+            // Transform input values to uppercase
+            inputs.forEach(input => {
+                input.value = input.value.toUpperCase();
+            });
+
+            // Add the success message
+            const formMessage = document.getElementById('formMessage');
+            formMessage.style.display = 'block';
+        });
+    </script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+>>>>>>> a608560542af6e55e845eba7be6217e820dd2990
 </html>
